@@ -2,8 +2,8 @@
 
 /* vars */
 :root {
-  --background-color: #fff;
-  --body-color: #111;
+  --background-color: #6B4E71;
+  --body-color: #f5dddd;
 }
 
 body {
@@ -18,8 +18,13 @@ h1, h2, h3, h4, p {
   margin-bottom: 1em;
 }
 
-h1, h2 {
-  font-weight: 700;
+h1{
+	font-weight: 700;
+	color: white;
+}
+
+h2 {
+  color: var(--body-color);
 }
 
 #wrapper {
@@ -94,7 +99,7 @@ h1, h2 {
 }
 
 #work h3, #page h3 {
-  font-weight: 600;
+
   letter-spacing: 1px;
   margin-bottom: 2rem;
 }
@@ -114,7 +119,7 @@ h1, h2 {
   color: #fff;
   padding: 2rem;
   width: 100%;
-  background-color: var(--body-color);
+  background-color: yellow;
   text-align: right;
 }
 
