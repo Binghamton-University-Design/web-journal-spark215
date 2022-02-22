@@ -23,8 +23,16 @@ h1{
 	color: white;
 }
 
-h2 {
+h2, h3{
   color: var(--body-color);
+}
+
+h4 {
+  color: var(--background-color);
+}
+
+p{
+  color: #332735;
 }
 
 #wrapper {
@@ -119,7 +127,7 @@ h2 {
   color: #fff;
   padding: 2rem;
   width: 100%;
-  background-color: yellow;
+  background-color: var(--body-color);
   text-align: right;
 }
 
