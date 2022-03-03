@@ -2,8 +2,8 @@
 
 /* vars */
 :root {
-  --background-color: #6B4E71;
-  --body-color: #f5dddd;
+  --background-color: #eaeaea;
+  --body-color: #737373;
 }
 
 body {
@@ -16,24 +16,15 @@ body {
 h1, h2, h3, h4, p {
   margin-top: 0;
   margin-bottom: 1em;
+  color: black;
 }
 
 h1{
 	font-weight: 700;
-	color: white;
+	
 }
 
-h2, h3{
-  color: var(--body-color);
-}
 
-h4 {
-  color: var(--background-color);
-}
-
-p{
-  color: #332735;
-}
 
 #wrapper {
   margin: 0 auto;
@@ -103,7 +94,7 @@ p{
 #intro {
   display: flex;
   align-items: center;
-  height: 70vh;
+  height: 7vh;
 }
 
 #work h3, #page h3 {
@@ -238,7 +229,7 @@ p{
   }
 
   #intro {
-    height: 70vh;
+    height: 50vh;
   }
 
   #intro-holder {

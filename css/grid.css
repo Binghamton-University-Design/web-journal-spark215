@@ -70,6 +70,10 @@
   grid-column: span 12;
 }
 
+.width-20-20-m {
+  grid-column: span 20;
+}
+
 /* D E S K T O P / L A P T O P */
 
 @media (min-width: 700px) {
@@ -124,6 +128,10 @@
 
   .width-12-12 {
     grid-column: span 12;
+  }
+  
+  .width-20-20 {
+    grid-column: span 20;
   }
 
 }
